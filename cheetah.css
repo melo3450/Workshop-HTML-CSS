@@ -1,0 +1,97 @@
+html{
+	background-color: rgb(200,200,200);
+}
+body{
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 630px;
+	background-color: white;
+}
+h1{
+	color: #7c795d; 
+	font-family: 'Trocchi', serif; 
+	font-weight: normal; 
+	font-size: 45px; 
+	line-height: 48px; 
+	padding-top: 140px;
+	padding-left: 10px;
+}
+.container{
+	width: 630px;
+	padding-left: auto;
+	padding-right: auto;
+	padding-bottom: auto;
+}
+#img1{
+	float: left;
+	padding-right: 10px;
+}
+#img2{
+	float: right;
+	padding-left: 10px;
+}
+.banner{
+	width: 630px;
+	top: 0;
+	padding-top: 111px;
+	padding-bottom: 0px;
+	background-image: url("http://wildlifephototours.com/wp-content/uploads/2010/07/leopard-pench-banner-5.jpg");
+	background-size: 630px 139px;
+	background-repeat: no-repeat;
+	position: fixed;
+}
+.nav{ 
+	height: 28px;
+	width: 630px;
+	margin-top:0px;
+	overflow: hidden;
+    background-color: #333;
+}
+
+.nav ul{
+	margin-top: 0px;
+	padding-left: 448px;
+	list-style-type: none;
+	position: center;
+	text-align: center;
+} 
+.nav li{
+	float: left;
+}
+.nav a{
+	display: block;
+	padding: 5px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+.nav a:hover{
+	background-color: black;
+}
+.article{ 
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.gallery{
+	padding-left: 12px;
+}
+.links{
+	width: 630px;
+	background-color: #333;
+}
+.links ul{
+	list-style-type: none;
+	padding-left: 10px;
+}
+.links a{
+	display: block;
+	padding: 5px;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	text-decoration: none;
+}
+.links a:hover{
+	background-color: black;
+}
